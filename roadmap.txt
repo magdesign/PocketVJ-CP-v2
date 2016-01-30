@@ -1,0 +1,50 @@
+***********************************
+***  PocketVJ 2.0 Roadmap       ***
+***********************************
+
+Important:
+
+- add a regular video player (omxplayer without sync) with pause, fastforward, next file, loop functions
+- adding slideshow function which also plays movies
+- make an online update function which updates everything incl. depencies (while dhcp is active)
+- adding support of wireless/bluetooth mouse in mapping mode (e.g. Logitech MX)
+- adding display force resolution to 1280x800
+- upgrading to Raspbian Jessie (will be a PocketVJ 2.5 release)
+- upgrade to of.0.9 (will be a PocketVJ 2.5 release)
+- compile a new version of piMapper and test its stability ((will be a PocketVJ 2.5 release))
+- a simple text tool to overlay text infos (for displaying showtimes) (maybe with suptitle function)
+- adding a function to check filenames, when there is a space, auto rename with _ , remove 'umlauts'
+- sync for slideshow
+- add new testfile which is smoothly recorded
+- adding an OSC wrapper for remote control pip install python-osc (https://pypi.python.org/pypi/python-osc)
+- screen controls for color, brightness, contrast
+- Remote mouse for mapping (remotepi app?)
+- finding an airplay alternative or remove the function
+- adding a screen recorder to record a TCPSyphon stream
+- Redesign mobilphone compatibility (yokto.net will do this)
+- Start all functions without reboot
+- Make sync script compatible with video mapper
+- add working function to start into gaming mode: ketm (spacinvaders), tint (tetris) or remove games
+- Automaticly convert incompatible movies to h264
+- Master Slave auto-detection
+- Integrate LPMT (already tried it: https://github.com/Foaly/lpmt/issues/15)
+- Integrate RaspiVJ function for videomixing
+- Artnet output for lightning control
+- DMX Creator bridge (emulate usb keyboard over gpio)
+- Slow motion function (1 Increase Speed 2 Decrease Speed to dbus control)
+- Add fast forward function (dbuscontrol.sh seek, needs recompile of custom omxplayer)
+- webcam and 3G hotspot for remote controlling 
+
+
+=================================================================================================================
+Hardware:
+- create extension board with knobs, rtc, h11, status led (mid 2016), its designed, first prototype coming soon... :-)
+ and will be compatible from PVJ 2.5 and up....
+
+=================================================================================================================
+
+ 
+Copyright by magdesign.ch / pocketvj.com
+Thanks to: Simon Josi, http://www.yokto.net, Marco Schmalz
+Idea, support and concept by: Marc-André Gasser, magdesign.ch
+Please support this project with a donation!

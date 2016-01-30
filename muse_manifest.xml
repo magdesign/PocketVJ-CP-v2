@@ -1,0 +1,133 @@
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://www.pocketvj.com" resolutions="1x" timestamp="1453308615829">
+  <folder name="css">
+    <file name="site_global.css" crc="4052507572"/>
+    <file name="master_a-master.css" crc="4098032531" ref="index"/>
+    <file name="index.css" crc="528959962" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index"/>
+    <file name="museutils.js" crc="275725342" ref="index"/>
+    <file name="webpro.js" crc="3883484123" ref="index"/>
+    <file name="musewpdisclosure.js" crc="404074387" ref="index"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="controlpanel-favicon.ico" crc="338801619" ref="index"/>
+    <file name="00_stop.png" crc="3781499846" seo="true" ref="index"/>
+    <file name="00_videoloop.png" crc="423365833" seo="true" ref="index"/>
+    <file name="00_pause.png" crc="3937855271" seo="true" ref="index"/>
+    <file name="00_image.png" crc="385056151" seo="true" ref="index"/>
+    <file name="00_files.png" crc="340909648" seo="true" ref="index"/>
+    <file name="00_clockout.png" crc="396975069" seo="true" ref="index"/>
+    <file name="00_airplay.png" crc="284586102" seo="true" ref="index"/>
+    <file name="00_prntscrn.png" crc="3796565793" seo="true" ref="index"/>
+    <file name="00_testscreen.png" crc="4249549196" seo="true" ref="index"/>
+    <file name="00_resolution.png" crc="244732317" seo="true" ref="index"/>
+    <file name="00_reboot.png" crc="3960260286" seo="true" ref="index"/>
+    <file name="00_shutdown.png" crc="355563417" seo="true" ref="index"/>
+    <file name="09_filebrowser.jpg" crc="207669422" seo="true" ref="index"/>
+    <file name="10_clean.jpg" crc="4240012820" seo="true" ref="index"/>
+    <file name="09_diskspace.png" crc="4158890325" seo="true" ref="index"/>
+    <file name="09_conformimage.png" crc="4002936560" seo="true" ref="index"/>
+    <file name="22_codecinfo.jpg" crc="3902903689" seo="true" ref="index"/>
+    <file name="22_resoinfo.jpg" crc="34752256" seo="true" ref="index"/>
+    <file name="11_eject.jpg" crc="345571044" seo="true" ref="index"/>
+    <file name="12_mount.jpg" crc="3895568712" seo="true" ref="index"/>
+    <file name="02_playloop.jpg" crc="242163430" seo="true" ref="index"/>
+    <file name="02_playonce.jpg" crc="133497128" seo="true" ref="index"/>
+    <file name="03_playusb.jpg" crc="441777751" seo="true" ref="index"/>
+    <file name="04_playslave.png" crc="3875046105" seo="true" ref="index"/>
+    <file name="05_playimage.jpg" crc="80006333" seo="true" ref="index"/>
+    <file name="06_playimageusb.jpg" crc="301848226" seo="true" ref="index"/>
+    <file name="07_playaudio.jpg" crc="385663812" seo="true" ref="index"/>
+    <file name="08_playaudiousb.jpg" crc="290385550" seo="true" ref="index"/>
+    <file name="02_play01.png" crc="4130924338" seo="true" ref="index"/>
+    <file name="02_play02.png" crc="4108812217" seo="true" ref="index"/>
+    <file name="02_play03.png" crc="382978467" seo="true" ref="index"/>
+    <file name="02_play04.png" crc="3778377005" seo="true" ref="index"/>
+    <file name="02_play05.png" crc="8113958" seo="true" ref="index"/>
+    <file name="02_play06.png" crc="52788905" seo="true" ref="index"/>
+    <file name="02_play07.png" crc="3936952519" seo="true" ref="index"/>
+    <file name="02_play08.png" crc="4214685793" seo="true" ref="index"/>
+    <file name="02_play1s.png" crc="496201947" seo="true" ref="index"/>
+    <file name="02_play2s.png" crc="3965289713" seo="true" ref="index"/>
+    <file name="02_play3s.png" crc="3827645923" seo="true" ref="index"/>
+    <file name="02_play04s.png" crc="83427920" seo="true" ref="index"/>
+    <file name="02_play05s.png" crc="4090704312" seo="true" ref="index"/>
+    <file name="29_playmode.png" crc="293583545" seo="true" ref="index"/>
+    <file name="29_texturemode.png" crc="4290329703" seo="true" ref="index"/>
+    <file name="29_mappingmode.png" crc="4109417827" seo="true" ref="index"/>
+    <file name="29_mediaselection.png" crc="171837646" seo="true" ref="index"/>
+    <file name="29_triangle.png" crc="473413683" seo="true" ref="index"/>
+    <file name="29_quad.png" crc="383603088" seo="true" ref="index"/>
+    <file name="29_delete.png" crc="288384966" seo="true" ref="index"/>
+    <file name="29_save.png" crc="4221506795" seo="true" ref="index"/>
+    <file name="29_mapperrestart.png" crc="4194030048" seo="true" ref="index"/>
+    <file name="30_presentation.png" crc="58649654" seo="true" ref="index"/>
+    <file name="30_edit.png" crc="4235613341" seo="true" ref="index"/>
+    <file name="30_next.png" crc="3894231065" seo="true" ref="index"/>
+    <file name="30_previous.png" crc="280523486" seo="true" ref="index"/>
+    <file name="30_open.png" crc="245267552" seo="true" ref="index"/>
+    <file name="30_save.png" crc="304987677" seo="true" ref="index"/>
+    <file name="30_relaunch.png" crc="29020445" seo="true" ref="index"/>
+    <file name="30_demo.png" crc="3963755617" seo="true" ref="index"/>
+    <file name="28_gettime.png" crc="232206956" seo="true" ref="index"/>
+    <file name="28_timeron.png" crc="151155676" seo="true" ref="index"/>
+    <file name="28_timeroff.png" crc="206356497" seo="true" ref="index"/>
+    <file name="28_displaytimer.png" crc="4170180370" seo="true" ref="index"/>
+    <file name="28_clockhdmi.png" crc="24568369" seo="true" ref="index"/>
+    <file name="14_testscreenon.jpg" crc="4056582010" seo="true" ref="index"/>
+    <file name="14_testscreenoff.jpg" crc="458564217" seo="true" ref="index"/>
+    <file name="23_volumeplus.jpg" crc="4233533522" seo="true" ref="index"/>
+    <file name="23_volumeminus.jpg" crc="4079091868" seo="true" ref="index"/>
+    <file name="23_audioout1.jpg" crc="290812510" seo="true" ref="index"/>
+    <file name="23_audioout2.jpg" crc="455556671" seo="true" ref="index"/>
+    <file name="23_audioout3.jpg" crc="4814506" seo="true" ref="index"/>
+    <file name="23_audiotest.png" crc="295653857" seo="true" ref="index"/>
+    <file name="22_ipwifi.png" crc="319845204" seo="true" ref="index"/>
+    <file name="22_iprj45.png" crc="333307197" seo="true" ref="index"/>
+    <file name="24_projectoron.png" crc="287643120" seo="true" ref="index"/>
+    <file name="24_projectoroff.png" crc="4116085192" seo="true" ref="index"/>
+    <file name="24_projector.jpg" crc="4048149615" seo="true" ref="index"/>
+    <file name="05_imagetime5.png" crc="3972544935" seo="true" ref="index"/>
+    <file name="05_imagetime10.png" crc="463548971" seo="true" ref="index"/>
+    <file name="05_imagetime15.png" crc="213497377" seo="true" ref="index"/>
+    <file name="14_resolution.jpg" crc="3930635093" seo="true" ref="index"/>
+    <file name="14_parser.png" crc="3848998045" seo="true" ref="index"/>
+    <file name="15_wakeup.png" crc="3769521165" seo="true" ref="index"/>
+    <file name="16_sleep.png" crc="516605346" seo="true" ref="index"/>
+    <file name="17_screendefault.jpg" crc="4035604048" seo="true" ref="index"/>
+    <file name="18_screen1080i.jpg" crc="249825419" seo="true" ref="index"/>
+    <file name="19_screen720p.jpg" crc="3835678908" seo="true" ref="index"/>
+    <file name="19_screencust.png" crc="326355924" seo="true" ref="index"/>
+    <file name="20_screenvga1.png" crc="420032182" seo="true" ref="index"/>
+    <file name="20_screenvga2.jpg" crc="4238805537" seo="true" ref="index"/>
+    <file name="21_scustomreso1.jpg" crc="3978036788" seo="true" ref="index"/>
+    <file name="21_scustomreso2.jpg" crc="3842681516" seo="true" ref="index"/>
+    <file name="25_setmaster.png" crc="421401493" seo="true" ref="index"/>
+    <file name="25_setmasterusb.png" crc="462629475" seo="true" ref="index"/>
+    <file name="25_setslave.png" crc="32989435" seo="true" ref="index"/>
+    <file name="25_setimage.png" crc="4271589028" seo="true" ref="index"/>
+    <file name="25_setimageusb.png" crc="123539197" seo="true" ref="index"/>
+    <file name="25_setimagemanual.png" crc="4209188375" seo="true" ref="index"/>
+    <file name="25_audio.png" crc="4191478760" seo="true" ref="index"/>
+    <file name="25_setaudiousb.png" crc="3907060785" seo="true" ref="index"/>
+    <file name="25_setmapper.png" crc="4282875241" seo="true" ref="index"/>
+    <file name="25_setsharing.png" crc="129003058" seo="true" ref="index"/>
+    <file name="25_setscheduler.png" crc="319857095" seo="true" ref="index"/>
+    <file name="25_setimpress.png" crc="438780228" seo="true" ref="index"/>
+    <file name="25_setsyphon.png" crc="229679694" seo="true" ref="index"/>
+    <file name="25_setairplay.png" crc="394796750" seo="true" ref="index"/>
+    <file name="25_setpicast.png" crc="3973723248" seo="true" ref="index"/>
+    <file name="26_pjlink.png" crc="3978811144" seo="true" ref="index"/>
+    <file name="26_eiki.png" crc="4283781743" seo="true" ref="index"/>
+    <file name="26_dhcp.png" crc="456467206" seo="true" ref="index"/>
+    <file name="26_static.png" crc="4251651075" seo="true" ref="index"/>
+    <file name="26_cpupdateint.png" crc="4070459450" seo="true" ref="index"/>
+    <file name="26_cpupdate.png" crc="3872813934" seo="true" ref="index"/>
+    <file name="26_factorypreset.jpg" crc="4084502269" seo="true" ref="index"/>
+    <file name="27_firmware.png" crc="406167881" seo="true" ref="index"/>
+    <file name="27_depencies.png" crc="130700553" seo="true" ref="index"/>
+  </folder>
+  <file name="index.html" crc="477569228" seo="true" mt="1453308607407" redirect="true"/>
+</manifest>

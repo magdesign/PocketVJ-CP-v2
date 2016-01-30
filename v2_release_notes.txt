@@ -1,0 +1,150 @@
+
+***********************************
+***  PocketVJ 2.0 Release Notes ***
+***********************************
+
+Control Panel v0.9 (30.Jan 2016)
+=================================
+- changed the imageplayer to support all formats and sizes
+- added 'as fast as possible' function for slideshow playback
+- now you can use audioplayer together with imageplayer
+- in scheduler you dont have to terminate running tasks anymore
+
+
+Control Panel v0.86a (28.Jan 2016)
+=================================
+- fixed manual slideshow to display pics alphabetically and not random
+
+
+Control Panel v0.86 (23.Jan 2016)
+=================================
+- added shortcut for Testscreen
+- fixed testscreen, no more double click to activate
+- function to change network to DHCP (read the manual!!)
+- upgraded all scripts to support hw clock (future releases will be based on RTC)
+- all images from now on support DS3231 RTC as default
+
+
+Control Panel v0.85 (05.Jan 2016)
+=================================
+- added a master clock to display
+- added clear display function to stop button
+
+Control Panel v0.84a (13.Dez 2015)
+=================================
+- fixed startmaster 02 script
+
+Control Panel v0.84 (28.Nov 2015)
+=================================
+- Added support of the pjlink library to power on/off various projectors
+- made a function in Firmware/System to change from PJlink to Eiki
+
+customers with CP 0.83 or below need to install pjlink library:
+sudo easy_install --upgrade pip appdirs
+pip install pjlink
+
+
+Control Panel v0.83 (25.Nov 2015)
+=================================
+- Added a script to power on/off projector over network (original script works with Eiki/Sanyo LC-XT3)
+  you can edit the script for your projector in /var/www/script/beamer_on_off.sh and if you send me
+  your script I will publish
+- Added more buttons in extended playback control
+- updated tcps client (only for new orders)
+
+
+Control Panel v0.82 (12.Nov 2015)
+====================================
+- Fixed a bug in Impress remote, its now working.
+- added the option in /boot/config.txt to get more current on the USB ports
+
+
+Control Panel v0.81 (17.Sept 2015)
+====================================
+-Added RaspberryCast support
+(users with CP 0.8 and lower, must install manual:
+wget https://raw.githubusercontent.com/vincent-lwt/RaspberryCast/master/setup.sh && sudo sh setup.sh)
+
+Control Panel v0.8 (14.Sept 2015)
+====================================
+-Added AirPlay support
+-Removed the Game function (will come later on...)
+
+ (users who have cCP0.73 or lower must manually install rplay as described here: 
+ https://ssl.instructables.com/id/AirPlay-Mirroring-without-Apple-TV-using-RPi/)
+ After doing all the steps from this tutorial, remove /etc/init.d/rplay, then install
+ the CP update and Airplay should also work on your device)
+
+
+Control Panel v0.73 (2.Sept 2015)
+====================================
+- Added a manual slideshow function (needs: feh_2.3-2_armhf.deb, now supports more image formats)
+- Added printscreen function (needs https://github.com/info-beamer/tools/tree/master/screenshot in /opt/screenshot)
+
+
+Control Panel v0.72a (11.August 2015)
+====================================
+- Fixed CP update function, users with Version 0.7, 0.71, 0.72 must update via ssh
+- pre-installed tetris and spaceinvaders games
+
+
+
+Control Panel v0.72 (23.June 2015)
+==================================
+- Fixed the conform all images function
+- added pause function
+- make factory preset after update to get pause working
+
+
+Control Panel v0.71
+===========================
+
+- Firmware 1.1 (20.Mai 2015) released
+- Sync script optimized for much faster reaction and frameprecise syncing
+ (just donwload CP0.71 again, install it and hit: 'Factory Preset')
+>>>>>>> Stashed changes
+
+Control Panel v0.71 (20.Mai 2015)
+======================================
+- Sync script optimized for much faster reaction and frameprecise syncing
+ (just click: 'Factory Preset' after update)
+ 
+- added function to display current IP address
+
+- integrated TCPSClient (http://www.techlife.sg/)
+  (its beta, only use it if you can connect over RJ45!!, Wifi sometimes drops)
+  needs some depencies: sudo apt-get install libavahi-compat-libdnssd-dev
+  if you are upgrading from CP v0.7 without internet connection,
+  drop me a mail, to get install instructions
+
+
+
+Control Panel v0.7 (18.April 2015)
+======================================
+
+- optimized for the new hardware
+- redesigned panels
+- added an impress function
+- added mapping function
+- changed the file structure
+
+
+If you need a function, write me so I can try to implement it.
+
+
+Copyright by http://magdesign.ch
+
+
+Firmware written by: Simon Josi, http://www.yokto.net
+Pi-Mapper written by: Krisjanis Rijnieks, https://github.com/kr15h/
+Virtual Keyboard written by: Erwin van Dijk, http://www.fsays.eu/
+Impress written by the LibreOffice community, https://www.libreoffice.org
+projector remote by: Marco Schmalz / Peter Ward, http://flowblok.id.au
+Testmovie by: Manuel Berner, http://towerbus.ch/
+Testaudio by: Marcel Bieri, https://facebook.com/casashowband
+
+
+Idea, support and concept by: Marc-André Gasser, Berne, Switzerland
+http://magdesign.ch/
+
+Please support this project with a donation or buy a PocketVJ in the official webstore!
