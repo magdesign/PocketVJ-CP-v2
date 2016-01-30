@@ -2,7 +2,6 @@
 ***  PocketVJ 2.0 Roadmap       ***
 ***********************************
 
-Important:
 
 - add a regular video player (omxplayer without sync) with pause, fastforward, next file, loop functions
 - adding slideshow function which also plays movies
