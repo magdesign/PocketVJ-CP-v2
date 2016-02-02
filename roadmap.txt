@@ -4,6 +4,7 @@
 
 - make an online update function which updates everything incl. depencies (while dhcp is active)
 - user can define RJ45 Network adress by himself
+- update tcpsyphon http://techlife.sg/TCPSClient/index.html
 - adding display force resolution to 1280x800
 - add a regular video player (omxplayer without sync) with pause, fastforward, next file, loop functions
 - adding slideshow function which also plays movies
