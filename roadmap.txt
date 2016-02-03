@@ -7,7 +7,9 @@
 - update tcpsyphon http://techlife.sg/TCPSClient/index.html
 - adding display force resolution to 1280x800
 - add a regular video player (omxplayer without sync) with pause, fastforward, next file, loop functions
+- starting/stoping movies while manual slideshow persists
 - adding slideshow function which also plays movies
+
 
 
 
