@@ -9,6 +9,7 @@
 - add a regular video player (omxplayer without sync) with pause, fastforward, next file, loop functions
 - starting/stoping movies while manual slideshow persists
 - adding slideshow function which also plays movies
+- checking if the powerpoint viewer is working on arm (sudo apt-get install pptview)
 
 
 
