@@ -1,30 +1,37 @@
 ***********************************
 ***  PocketVJ 2.0 Roadmap       ***
 ***********************************
-
-
-- add a regular video player (omxplayer without sync) with pause, fastforward, next file, loop functions
-- adding slideshow function which also plays movies
+- add pdf viewer
 - make an online update function which updates everything incl. depencies (while dhcp is active)
-- adding support of wireless/bluetooth mouse in mapping mode (e.g. Logitech MX)
+- user can define RJ45 Network adress by himself
+- update tcpsyphon http://techlife.sg/TCPSClient/index.html
 - adding display force resolution to 1280x800
+- add a regular video player (omxplayer without sync) with pause, fastforward, next file, loop functions
+- starting/stoping movies while manual slideshow persists
+- adding slideshow function which also plays movies
+- checking if the powerpoint viewer is working on arm (sudo apt-get install pptview)
+
+
+
+
 - upgrading to Raspbian Jessie (will be a PocketVJ 2.5 release)
 - upgrade to of.0.9 (will be a PocketVJ 2.5 release)
 - compile a new version of piMapper and test its stability ((will be a PocketVJ 2.5 release))
 - a simple text tool to overlay text infos (for displaying showtimes) (maybe with suptitle function)
+- adding support of wireless/bluetooth mouse in mapping mode (e.g. Logitech MX)
 - adding a function to check filenames, when there is a space, auto rename with _ , remove 'umlauts'
 - sync for slideshow
 - add new testfile which is smoothly recorded
+- add new bootup screen (will be a PocketVJ 3 release)
 - adding an OSC wrapper for remote control pip install python-osc (https://pypi.python.org/pypi/python-osc)
 - screen controls for color, brightness, contrast
-- Remote mouse for mapping (remotepi app?)
-- finding an airplay alternative or remove the function
+- Remote mouse for mapping (remotepi app, xdootool?)
+- remove airplay function
 - adding a screen recorder to record a TCPSyphon stream
-- Redesign mobilphone compatibility (yokto.net will do this)
+- Redesign mobilphone compatibility (yokto.net will do this, PocketVJ 3 release)
 - Start all functions without reboot
-- Make sync script compatible with video mapper
-- add working function to start into gaming mode: ketm (spacinvaders), tint (tetris) or remove games
-- Automaticly convert incompatible movies to h264
+- Make sync script compatible with video mapper 
+- Automaticly convert incompatible movies to h264  (PocketVJ 3 release), when finished play happy movie ;-)
 - Master Slave auto-detection
 - Integrate LPMT (already tried it: https://github.com/Foaly/lpmt/issues/15)
 - Integrate RaspiVJ function for videomixing
@@ -37,8 +44,7 @@
 
 =================================================================================================================
 Hardware:
-- create extension board with knobs, rtc, h11, status led (mid 2016), its designed, first prototype coming soon... :-)
- and will be compatible from PVJ 2.5 and up....
+- create extension board with knobs, rtc, h11, status led ( PocketVJ 3 release)), its designed, first prototype coming soon... :-) and will be compatible from PVJ 2.5 and up....
 
 =================================================================================================================
 
