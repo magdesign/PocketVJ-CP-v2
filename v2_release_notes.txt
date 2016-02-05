@@ -3,6 +3,12 @@
 ***  PocketVJ 2.0 Release Notes ***
 ***********************************
 
+Control Panel v0.91 (05.Feb 2016)
+=================================
+- added pdf viewer (put your files in a new folder media/internal/pdf/)
+- added stop audio only knob
+
+
 Control Panel v0.9 (30.Jan 2016)
 =================================
 - changed the imageplayer to support all formats and sizes
