@@ -13,7 +13,7 @@
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?4052507572"/>
   <link rel="stylesheet" type="text/css" href="css/master_a-master.css?4098032531"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?530549210" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?3924272813" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    document.documentElement.className += ' js';
@@ -24,7 +24,7 @@
   <div class="clearfix" id="page"><!-- column -->
    <div class="position_content" id="page_position_content">
     <div class="clearfix colelem" id="u75-4"><!-- content -->
-     <p>PocketVJ Control Panel v0.9</p>
+     <p>PocketVJ Control Panel v0.91</p>
     </div>
     <div class="colelem" id="u1824"><!-- custom html -->
      <table width="400" border="1" align="center">
@@ -164,11 +164,18 @@
        </div>
        <a class="nonblock action nontext clip_frame colelem" id="u1119" href="?action=image"><!-- image --><img class="block" id="u1119_img" src="images/05_playimage.jpg" alt="" width="160" height="40"/></a>
        <a class="nonblock action nontext clip_frame colelem" id="u1117" href="?action=imageusb"><!-- image --><img class="block" id="u1117_img" src="images/06_playimageusb.jpg" alt="" width="160" height="40"/></a>
+       <a class="nonblock action nontext clip_frame colelem" id="u3517" href="?action=startpdf"><!-- image --><img class="block" id="u3517_img" src="images/05_playpdf.png" alt="" width="160" height="40"/></a>
+       <a class="nonblock action nontext clip_frame colelem" id="u3506" href="?action=startpdfusb"><!-- image --><img class="block" id="u3506_img" src="images/05_playpdfusb.png" alt="" width="160" height="40"/></a>
        <div class="clearfix colelem" id="u505-4"><!-- content -->
         <p>Audio Playback Control:</p>
        </div>
-       <a class="nonblock action nontext clip_frame colelem" id="u514" href="?action=audio"><!-- image --><img class="block" id="u514_img" src="images/07_playaudio.jpg" alt="" width="160" height="40"/></a>
-       <a class="nonblock action nontext clip_frame colelem" id="u516" href="?action=audiousb"><!-- image --><img class="block" id="u516_img" src="images/08_playaudiousb.jpg" alt="" width="160" height="40"/></a>
+       <div class="clearfix colelem" id="ppu514"><!-- group -->
+        <div class="clearfix grpelem" id="pu514"><!-- column -->
+         <a class="nonblock action nontext clip_frame colelem" id="u514" href="?action=audio"><!-- image --><img class="block" id="u514_img" src="images/07_playaudio.jpg" alt="" width="160" height="40"/></a>
+         <a class="nonblock action nontext clip_frame colelem" id="u516" href="?action=audiousb"><!-- image --><img class="block" id="u516_img" src="images/08_playaudiousb.jpg" alt="" width="160" height="40"/></a>
+        </div>
+        <a class="nonblock action nontext clip_frame grpelem" id="u3521" href="?action=stopaudio"><!-- image --><img class="block" id="u3521_img" src="images/00_stop.png" alt="" title="stopaudio" width="25" height="25"/></a>
+       </div>
        <div class="clearfix colelem" id="u1114-4"><!-- content -->
         <p>It is possible to use the Imageplayer together with the Audioplayer.</p>
        </div>
@@ -184,7 +191,12 @@
        <a class="nonblock action nontext clip_frame colelem" id="u2171" href="?action=startmaster05"><!-- image --><img class="block" id="u2171_img" src="images/02_play05.png" alt="" width="160" height="40"/></a>
        <a class="nonblock action nontext clip_frame colelem" id="u2177" href="?action=startmaster06"><!-- image --><img class="block" id="u2177_img" src="images/02_play06.png" alt="" width="160" height="40"/></a>
        <a class="nonblock action nontext clip_frame colelem" id="u3425" href="?action=startmaster07"><!-- image --><img class="block" id="u3425_img" src="images/02_play07.png" alt="" width="160" height="40"/></a>
-       <a class="nonblock action nontext clip_frame colelem" id="u3431" href="?action=startmaster08"><!-- image --><img class="block" id="u3431_img" src="images/02_play08.png" alt="" width="160" height="40"/></a>
+       <div class="clearfix colelem" id="pu3431"><!-- group -->
+        <a class="nonblock action nontext clip_frame grpelem" id="u3431" href="?action=startmaster08"><!-- image --><img class="block" id="u3431_img" src="images/02_play08.png" alt="" width="160" height="40"/></a>
+        <div class="clip_frame grpelem" id="u3512"><!-- image -->
+         <img class="block" id="u3512_img" src="images/05_playpdf.png" alt="" width="160" height="40"/>
+        </div>
+       </div>
        <a class="nonblock action nontext clip_frame colelem" id="u2183" href="?action=startmasteronce01"><!-- image --><img class="block" id="u2183_img" src="images/02_play1s.png" alt="" width="160" height="40"/></a>
        <a class="nonblock action nontext clip_frame colelem" id="u2189" href="?action=startmasteronce02"><!-- image --><img class="block" id="u2189_img" src="images/02_play2s.png" alt="" width="160" height="40"/></a>
        <a class="nonblock action nontext clip_frame colelem" id="u2195" href="?action=startmasteronce03"><!-- image --><img class="block" id="u2195_img" src="images/02_play3s.png" alt="" width="160" height="40"/></a>
@@ -367,8 +379,13 @@
        <a class="nonblock action nontext clip_frame colelem" id="u1259" href="?action=slave"><!-- image --><img class="block" id="u1259_img" src="images/25_setslave.png" alt="" width="160" height="40"/></a>
        <a class="nonblock action nontext clip_frame colelem" id="u1235" href="?action=setimage"><!-- image --><img class="block" id="u1235_img" src="images/25_setimage.png" alt="" width="160" height="40"/></a>
        <a class="nonblock action nontext clip_frame colelem" id="u1241" href="?action=setimageusb"><!-- image --><img class="block" id="u1241_img" src="images/25_setimageusb.png" alt="" width="160" height="40"/></a>
-       <div class="clearfix colelem" id="pu3276"><!-- group -->
-        <a class="nonblock action nontext clip_frame grpelem" id="u3276" href="?action=setimagemanual"><!-- image --><img class="block" id="u3276_img" src="images/25_setimagemanual.png" alt="" width="160" height="40"/></a>
+       <div class="clearfix colelem" id="ppu3276"><!-- group -->
+        <div class="clearfix grpelem" id="pu3276"><!-- column -->
+         <a class="nonblock action nontext clip_frame colelem" id="u3276" href="?action=setimagemanual"><!-- image --><img class="block" id="u3276_img" src="images/25_setimagemanual.png" alt="" width="160" height="40"/></a>
+         <div class="clip_frame colelem" id="u3524"><!-- image -->
+          <img class="block" id="u3524_img" src="images/25_setpdf.png" alt="" width="160" height="40"/>
+         </div>
+        </div>
         <div class="clearfix grpelem" id="u3496-4"><!-- content -->
          <p>use the controls in Impress section to move to next slide</p>
         </div>

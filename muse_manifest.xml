@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://www.pocketvj.com" resolutions="1x" timestamp="1453308615829">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://www.pocketvj.com" resolutions="1x" timestamp="1454677441800">
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
     <file name="master_a-master.css" crc="4098032531" ref="index"/>
-    <file name="index.css" crc="528959962" ref="index"/>
+    <file name="index.css" crc="3924272813" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="196614522" ref="index"/>
@@ -39,6 +39,8 @@
     <file name="04_playslave.png" crc="3875046105" seo="true" ref="index"/>
     <file name="05_playimage.jpg" crc="80006333" seo="true" ref="index"/>
     <file name="06_playimageusb.jpg" crc="301848226" seo="true" ref="index"/>
+    <file name="05_playpdf.png" crc="89004545" seo="true" ref="index"/>
+    <file name="05_playpdfusb.png" crc="449126834" seo="true" ref="index"/>
     <file name="07_playaudio.jpg" crc="385663812" seo="true" ref="index"/>
     <file name="08_playaudiousb.jpg" crc="290385550" seo="true" ref="index"/>
     <file name="02_play01.png" crc="4130924338" seo="true" ref="index"/>
@@ -92,6 +94,7 @@
     <file name="05_imagetime5.png" crc="3972544935" seo="true" ref="index"/>
     <file name="05_imagetime10.png" crc="463548971" seo="true" ref="index"/>
     <file name="05_imagetime15.png" crc="213497377" seo="true" ref="index"/>
+    <file name="05_imagetime0.png" crc="59469868" seo="true" ref="index"/>
     <file name="14_resolution.jpg" crc="3930635093" seo="true" ref="index"/>
     <file name="14_parser.png" crc="3848998045" seo="true" ref="index"/>
     <file name="15_wakeup.png" crc="3769521165" seo="true" ref="index"/>
@@ -110,6 +113,7 @@
     <file name="25_setimage.png" crc="4271589028" seo="true" ref="index"/>
     <file name="25_setimageusb.png" crc="123539197" seo="true" ref="index"/>
     <file name="25_setimagemanual.png" crc="4209188375" seo="true" ref="index"/>
+    <file name="25_setpdf.png" crc="4073731294" seo="true" ref="index"/>
     <file name="25_audio.png" crc="4191478760" seo="true" ref="index"/>
     <file name="25_setaudiousb.png" crc="3907060785" seo="true" ref="index"/>
     <file name="25_setmapper.png" crc="4282875241" seo="true" ref="index"/>
@@ -129,5 +133,5 @@
     <file name="27_firmware.png" crc="406167881" seo="true" ref="index"/>
     <file name="27_depencies.png" crc="130700553" seo="true" ref="index"/>
   </folder>
-  <file name="index.html" crc="477569228" seo="true" mt="1453308607407" redirect="true"/>
+  <file name="index.html" crc="3888172822" seo="true" mt="1454677423571" redirect="true"/>
 </manifest>

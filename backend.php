@@ -131,6 +131,19 @@ if ($_GET['action'] == 'imageusb') {
 	system("sudo /var/www/sync/startimageusb");
 }
 
+//# PDF player
+
+if ($_GET['action'] == 'startpdf') {
+	$outputtext =  "start pdf player";
+	system("sudo /var/www/sync/startpdf");
+}
+
+if ($_GET['action'] == 'startpdfusb') {
+	$outputtext =  "start pdf player";
+	system("sudo /var/www/sync/startpdfusb");
+}
+
+
 //# Testscreen
 
 if ($_GET['action'] == 'testscreen') {
@@ -156,6 +169,14 @@ if ($_GET['action'] == 'audiousb') {
 	$outputtext =  "start audio player in usb mode";
 	exec("sudo /var/www/startaudiosub");
 }
+
+if ($_GET['action'] == 'stopaudio') {
+	$outputtext =  "stop audio player only";
+	system("sudo killall -9 mpg321");
+}
+
+
+
 
 //# Testtone
 
