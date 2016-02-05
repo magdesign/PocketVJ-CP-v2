@@ -1,7 +1,8 @@
 ***********************************
 ***  PocketVJ 2.0 Roadmap       ***
 ***********************************
-- add pdf viewer
+
+
 - make an online update function which updates everything incl. depencies (while dhcp is active)
 - user can define RJ45 Network adress by himself
 - update tcpsyphon http://techlife.sg/TCPSClient/index.html
@@ -9,9 +10,6 @@
 - add a regular video player (omxplayer without sync) with pause, fastforward, next file, loop functions
 - starting/stoping movies while manual slideshow persists
 - adding slideshow function which also plays movies
-- checking if the powerpoint viewer is working on arm (sudo apt-get install pptview)
-
-
 
 
 - upgrading to Raspbian Jessie (will be a PocketVJ 2.5 release)
