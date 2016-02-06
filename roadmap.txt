@@ -2,7 +2,7 @@
 ***  PocketVJ 2.0 Roadmap       ***
 ***********************************
 
-
+- fix the no mouse mapper behaviour
 - make an online update function which updates everything incl. depencies (while dhcp is active)
 - user can define RJ45 Network adress by himself
 - update tcpsyphon http://techlife.sg/TCPSClient/index.html
