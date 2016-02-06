@@ -3,6 +3,13 @@
 ***  PocketVJ 2.0 Release Notes ***
 ***********************************
 
+Control Panel v0.91beta (06.Feb 2016)
+=====================================
+- added mobile layout for mapper control
+  (When connection with mobile phone, press the white square, then in mapper section cloick on mobile)
+
+
+
 Control Panel v0.91 (05.Feb 2016)
 =================================
 - added pdf viewer (put your files in a new folder media/internal/pdf/)
