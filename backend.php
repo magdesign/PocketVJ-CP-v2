@@ -743,6 +743,23 @@ if ($_GET['action'] == 'mapperdelete') {
 	system("killall -9 /opt/fsayskeyboard");
 }
 
+if ($_GET['action'] == 'mapperpersp') {
+	$outputtext =  "toggle perspective";
+	system("sudo /var/www/sync/mapperpersp");
+	system("killall -9 /opt/fsayskeyboard");
+}
+
+if ($_GET['action'] == 'mappergrid') {
+	$outputtext =  "create grid";
+	system("sudo /var/www/sync/mappergrid");
+	system("killall -9 /opt/fsayskeyboard");
+}
+
+if ($_GET['action'] == 'mapperundo') {
+	$outputtext =  "undo command";
+	system("sudo /var/www/sync/mapperundo");
+	system("killall -9 /opt/fsayskeyboard");
+}
 
 if ($_GET['action'] == 'mapperinfo') {
 	$outputtext =  "info";
