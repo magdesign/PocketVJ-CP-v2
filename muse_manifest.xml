@@ -1,17 +1,25 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://www.pocketvj.com" resolutions="1x" timestamp="1454677441800">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://www.pocketvj.com" resolutions="1x" timestamp="1454788389271">
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
     <file name="master_a-master.css" crc="4098032531" ref="index"/>
-    <file name="index.css" crc="3924272813" ref="index"/>
+    <file name="index.css" crc="4046419221" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index"/>
-    <file name="museutils.js" crc="275725342" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="phone>index:phone>mapper:phone>presenter:index"/>
+    <file name="museutils.js" crc="275725342" ref="phone>index:phone>mapper:phone>presenter:index"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="phone>index:phone>mapper:phone>presenter:index"/>
+    <file name="pie.js" crc="3827607177" ref="phone>mapper"/>
+    <file name="museredirect.js" crc="3899419633" ref="index"/>
     <file name="webpro.js" crc="3883484123" ref="index"/>
     <file name="musewpdisclosure.js" crc="404074387" ref="index"/>
-    <file name="jquery.watch.js" crc="3999102769" ref="index"/>
   </folder>
   <folder name="images">
+    <file name="controlpanel_home-favicon.ico" crc="4037608089" ref="phone>index"/>
+    <file name="pimapperlogosml.png" crc="4089956757" seo="true" ref="phone>mapper"/>
+    <file name="30_open.png" crc="245267552" seo="true" ref="phone>presenter:index"/>
+    <file name="30_demo.png" crc="3963755617" seo="true" ref="phone>presenter:index"/>
+    <file name="30_save.png" crc="304987677" seo="true" ref="phone>presenter:index"/>
+    <file name="30_relaunch.png" crc="29020445" seo="true" ref="phone>presenter:index"/>
     <file name="controlpanel-favicon.ico" crc="338801619" ref="index"/>
     <file name="00_stop.png" crc="3781499846" seo="true" ref="index"/>
     <file name="00_videoloop.png" crc="423365833" seo="true" ref="index"/>
@@ -65,14 +73,10 @@
     <file name="29_delete.png" crc="288384966" seo="true" ref="index"/>
     <file name="29_save.png" crc="4221506795" seo="true" ref="index"/>
     <file name="29_mapperrestart.png" crc="4194030048" seo="true" ref="index"/>
+    <file name="30_previous.png" crc="280523486" seo="true" ref="index"/>
+    <file name="30_next.png" crc="3894231065" seo="true" ref="index"/>
     <file name="30_presentation.png" crc="58649654" seo="true" ref="index"/>
     <file name="30_edit.png" crc="4235613341" seo="true" ref="index"/>
-    <file name="30_next.png" crc="3894231065" seo="true" ref="index"/>
-    <file name="30_previous.png" crc="280523486" seo="true" ref="index"/>
-    <file name="30_open.png" crc="245267552" seo="true" ref="index"/>
-    <file name="30_save.png" crc="304987677" seo="true" ref="index"/>
-    <file name="30_relaunch.png" crc="29020445" seo="true" ref="index"/>
-    <file name="30_demo.png" crc="3963755617" seo="true" ref="index"/>
     <file name="28_gettime.png" crc="232206956" seo="true" ref="index"/>
     <file name="28_timeron.png" crc="151155676" seo="true" ref="index"/>
     <file name="28_timeroff.png" crc="206356497" seo="true" ref="index"/>
@@ -133,5 +137,15 @@
     <file name="27_firmware.png" crc="406167881" seo="true" ref="index"/>
     <file name="27_depencies.png" crc="130700553" seo="true" ref="index"/>
   </folder>
-  <file name="index.html" crc="3888172822" seo="true" mt="1454677423571" redirect="true"/>
+  <folder name="phone">
+    <folder name="css">
+      <file name="mapper.css" crc="188570532" ref="phone>mapper"/>
+      <file name="index.css" crc="436421107" ref="phone>index"/>
+      <file name="presenter.css" crc="3813086913" ref="phone>presenter"/>
+    </folder>
+    <file name="index.html" crc="311582051" seo="true" mt="1454785228103" redirect="true"/>
+    <file name="mapper.html" crc="4174322925" seo="true" mt="1454788100442" redirect="true"/>
+    <file name="presenter.html" crc="4224517725" seo="true" mt="1454785205448" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="4108380971" seo="true" mt="1454785659458" redirect="true"/>
 </manifest>
