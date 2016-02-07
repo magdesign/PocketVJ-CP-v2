@@ -26,7 +26,11 @@
 - Remote mouse for mapping (remotepi app, xdootool?)
 - remove airplay function
 - adding a screen recorder to record a TCPSyphon stream
+<<<<<<< Updated upstream
 - Redesign mobilphone compatibility (with http://getbootstrap.com/)
+=======
+- Redesign mobilphone compatibility (yokto.net will do this, PocketVJ 3 release)
+>>>>>>> Stashed changes
 - Start all functions without reboot
 - Make sync script compatible with video mapper 
 - Automaticly convert incompatible movies to h264  (PocketVJ 3 release), when finished play happy movie ;-)
