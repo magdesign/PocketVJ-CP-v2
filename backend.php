@@ -3,17 +3,18 @@
 
 
 if ($_GET['action'] == 'stop') {
-	$outputtext =  "player stopped";
-	system("sudo /var/www/sync/omxkill.py");
-	system("sudo /var/www/sync/testscreenoff.py &");
-	system("sudo killall -9 /home/pi/of_v0.8.4/addons/ofxPiMapper/example/./bin/example");
-	system("sudo killall -9 /usr/bin/TCPSClient.bin");
-	system("sudo /var/www/sync/rplay stop");
-	system("sudo killall -9 /var/www/sync/tty-clock");
-	system("sudo killall -9 mpg321");
-	system("sudo killall -9 feh");
-	system("sudo kill $(pidof X");
-	system("sudo /var/www/sync/clearscreen.sh");
+	$outputtext =  "all players stopped";
+	system ("sudo /var/www/sync/stopall");
+	#system("sudo /var/www/sync/omxkill.py");
+	#system("sudo /var/www/sync/testscreenoff.py &");
+	#system("sudo killall -9 /home/pi/of_v0.8.4/addons/ofxPiMapper/example/./bin/example");
+	#system("sudo killall -9 /usr/bin/TCPSClient.bin");
+	#system("sudo /var/www/sync/rplay stop");
+	#system("sudo killall -9 /var/www/sync/tty-clock");
+	#system("sudo killall -9 mpg321");
+	#system("sudo killall -9 feh");
+	#system("sudo kill $(pidof X");
+	#system("sudo /var/www/sync/clearscreen.sh");
 }
 
 if ($_GET['action'] == 'startmaster') {
@@ -123,7 +124,7 @@ if ($_GET['action'] == 'stopimage') {
 
 if ($_GET['action'] == 'image') {
 	$outputtext =  "start image player";
-	system("sudo /var/www/sync/startimage");
+	system("sudo /var/www/sync/startimage &");
 }
 
 if ($_GET['action'] == 'imageusb') {
