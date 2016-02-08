@@ -3,6 +3,10 @@
 ***  PocketVJ 2.0 Release Notes ***
 ***********************************
 
+Control Panel v0.92 (08.Feb 2016)
+===================================
+- added global stop script
+
 Control Panel v0.91beta (06.Feb 2016)
 =====================================
 - added mobile layout for mapper control
