@@ -10,7 +10,7 @@
 - add a regular video player (omxplayer without sync) with pause, fastforward, next file, loop functions
 - starting/stoping movies while manual slideshow persists
 - adding slideshow function which also plays movies
-
+- update the timer.txt with factory preset to the newes version
 
 - upgrading to Raspbian Jessie (will be a PocketVJ 2.5 release)
 - upgrade to of.0.9 (will be a PocketVJ 2.5 release)
