@@ -3,6 +3,14 @@
 ***  PocketVJ 2.0 Release Notes ***
 ***********************************
 
+
+Control Panel v0.93 (10.Feb 2016)
+===================================
+- added mobile layouts in Video / Presenter /Mapper
+- some layout redesigns
+- addad export / import mapper settings
+
+
 Control Panel v0.92 (08.Feb 2016)
 ===================================
 - added global stop script
