@@ -4,6 +4,13 @@
 ***********************************
 
 
+Control Panel v0.94 (10.Feb 2016)
+===================================
+- removed mobile layouts since it made strange issues with 'devicelock' on mobile phones
+- if you already upgraded and cant access the upgrade section, clear browser data, type in url
+   of pocketvj with index.html: 2.0.0.100/index.html you might use a computer....
+
+
 Control Panel v0.93 (10.Feb 2016)
 ===================================
 - added mobile layouts in Video / Presenter /Mapper
