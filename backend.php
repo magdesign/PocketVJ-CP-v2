@@ -748,6 +748,17 @@ if ($_GET['action'] == 'mappergrid') {
 	system("killall -9 /opt/fsayskeyboard");
 }
 
+if ($_GET['action'] == 'mapperimport') {
+	$outputtext =  "import mappersettings.xml";
+	system("sudo /var/www/sync/mapperimport");
+}
+
+if ($_GET['action'] == 'mapperexport') {
+	$outputtext =  "export to /internal/mappersettings.xml";
+	system("sudo /var/www/sync/mapperexport");
+}
+
+
 if ($_GET['action'] == 'mapperundo') {
 	$outputtext =  "undo command";
 	system("sudo /var/www/sync/mapperundo");

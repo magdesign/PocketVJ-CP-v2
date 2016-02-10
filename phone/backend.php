@@ -3,17 +3,18 @@
 
 
 if ($_GET['action'] == 'stop') {
-	$outputtext =  "player stopped";
-	system("sudo /var/www/sync/omxkill.py");
-	system("sudo /var/www/sync/testscreenoff.py &");
-	system("sudo killall -9 /home/pi/of_v0.8.4/addons/ofxPiMapper/example/./bin/example");
-	system("sudo killall -9 /usr/bin/TCPSClient.bin");
-	system("sudo /var/www/sync/rplay stop");
-	system("sudo killall -9 /var/www/sync/tty-clock");
-	system("sudo killall -9 mpg321");
-	system("sudo killall -9 feh");
-	system("sudo kill $(pidof X");
-	system("sudo /var/www/sync/clearscreen.sh");
+	$outputtext =  "all players stopped";
+	system ("sudo /var/www/sync/stopall > /dev/null 2>&1");
+	#system("sudo /var/www/sync/omxkill.py");
+	#system("sudo /var/www/sync/testscreenoff.py &");
+	#system("sudo killall -9 /home/pi/of_v0.8.4/addons/ofxPiMapper/example/./bin/example");
+	#system("sudo killall -9 /usr/bin/TCPSClient.bin");
+	#system("sudo /var/www/sync/rplay stop");
+	#system("sudo killall -9 /var/www/sync/tty-clock");
+	#system("sudo killall -9 mpg321");
+	#system("sudo killall -9 feh");
+	#system("sudo kill $(pidof X");
+	#system("sudo /var/www/sync/clearscreen.sh");
 }
 
 if ($_GET['action'] == 'startmaster') {
@@ -123,7 +124,7 @@ if ($_GET['action'] == 'stopimage') {
 
 if ($_GET['action'] == 'image') {
 	$outputtext =  "start image player";
-	system("sudo /var/www/sync/startimage");
+	system("sudo /var/www/sync/startimage &");
 }
 
 if ($_GET['action'] == 'imageusb') {
@@ -275,11 +276,10 @@ if ($_GET['action'] == 'setimagemanual') {
 	system("sudo cp /var/www/sync/rc.local.screenshare /etc/rc.local");
 }
 
-if ($_GET['action'] == 'setgaming') {
-	$outputtext =  "set to game";
-	system("sudo cp /var/www/sync/rc.local.game /etc/rc.local");
+if ($_GET['action'] == 'setpdf') {
+	$outputtext =  "set to pdf";
+	system("sudo cp /var/www/sync/rc.local.pdf /etc/rc.local");
 }
-
 
 if ($_GET['action'] == 'setsyphon') {
 	$outputtext =  "set to TCPSClient";
@@ -675,13 +675,7 @@ if ($_GET['action'] == 'timer') {
 
 if ($_GET['action'] == 'clockdisplay') {
 	$outputtext =  "display time onscreen";
-	system("sudo /var/www/sync/omxkill.py");
-	system("sudo /var/www/sync/testscreenoff.py &");
-	system("sudo killall -9 /home/pi/of_v0.8.4/addons/ofxPiMapper/example/./bin/example");
-	system("sudo killall -9 /usr/bin/TCPSClient.bin");
-	system("sudo /var/www/sync/rplay stop");
-	system("sudo killall -9 /var/www/sync/tty-clock");
-	system("sudo /var/www/sync/clearscreen.sh");
+	system ("sudo /var/www/sync/stopall");
 	system("sudo /var/www/sync/clockdisplaypink");
 }
 
@@ -691,8 +685,7 @@ if ($_GET['action'] == 'clockdisplay') {
 
 if ($_GET['action'] == 'relaunchmapper') {
 	$outputtext =  "PiMapper relaunched";
-	system("sudo killall -9 /home/pi/of_v0.8.4/addons/ofxPiMapper/example/./bin/example");
-	system("sudo /home/pi/of_v0.8.4/addons/ofxPiMapper/example/./bin/example -f &");
+	system("sudo /var/www/sync/relaunchmapper");
 }
 
 if ($_GET['action'] == 'mapperplaymode') {
@@ -708,7 +701,7 @@ if ($_GET['action'] == 'mappertexturemode') {
 }
 
 if ($_GET['action'] == 'mappermappingmode') {
-	$outputtext =  "select input mesh";
+	$outputtext =  "mappig mode";
 	system("sudo /var/www/sync/mapper3");
 	system("killall -9 /opt/fsayskeyboard");
 }
@@ -743,6 +736,34 @@ if ($_GET['action'] == 'mapperdelete') {
 	system("killall -9 /opt/fsayskeyboard");
 }
 
+if ($_GET['action'] == 'mapperpersp') {
+	$outputtext =  "toggle perspective";
+	system("sudo /var/www/sync/mapperpersp");
+	system("killall -9 /opt/fsayskeyboard");
+}
+
+if ($_GET['action'] == 'mappergrid') {
+	$outputtext =  "create grid";
+	system("sudo /var/www/sync/mappergrid");
+	system("killall -9 /opt/fsayskeyboard");
+}
+
+if ($_GET['action'] == 'mapperimport') {
+	$outputtext =  "import mappersettings.xml";
+	system("sudo /var/www/sync/mapperimport");
+}
+
+if ($_GET['action'] == 'mapperexport') {
+	$outputtext =  "export to /internal/mappersettings.xml";
+	system("sudo /var/www/sync/mapperexport");
+}
+
+
+if ($_GET['action'] == 'mapperundo') {
+	$outputtext =  "undo command";
+	system("sudo /var/www/sync/mapperundo");
+	system("killall -9 /opt/fsayskeyboard");
+}
 
 if ($_GET['action'] == 'mapperinfo') {
 	$outputtext =  "info";
