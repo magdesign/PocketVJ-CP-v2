@@ -99,26 +99,25 @@ body
 a:link
 {
 	color: #0000FF;
-	font-style: normal;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:visited
 {
-	color: #000000;
-	text-decoration: none;
+	color: #800080;
+	text-decoration: underline;
 }
 
 a:hover
 {
-	color: #009245;
-	text-decoration: none;
+	color: #0000FF;
+	text-decoration: underline;
 }
 
 a:active
 {
-	color: #000000;
-	text-decoration: none;
+	color: #EE0000;
+	text-decoration: underline;
 }
 
 a.nontext /* used to override default properties of 'a' tag */

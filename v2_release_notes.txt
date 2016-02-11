@@ -3,6 +3,11 @@
 ***  PocketVJ 2.0 Release Notes ***
 ***********************************
 
+Control Panel v0.95 (11.Feb 2016)
+===================================
+- made it mobile friendly, it finally works, 
+  some known bugs with the output messages..will fix this soon
+
 
 Control Panel v0.94 (10.Feb 2016)
 ===================================
