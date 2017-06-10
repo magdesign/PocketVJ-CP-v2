@@ -3,9 +3,7 @@
 ***********************************
 
 
-- make an online update function which updates everything incl. depencies (while dhcp is active)
-- function to change wifi-channels
-- update the timer.txt with factory preset to the newes version
+- no more updates, due the fact that the hardware changed, I released PocketVJ 3.0
 
  
 Copyright by magdesign.ch / pocketvj.com
