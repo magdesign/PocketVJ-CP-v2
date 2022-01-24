@@ -1,18 +1,24 @@
 ! It is not possible to upgrade to PocketVJ 3.0 !
 # PocketVJ Control Panel 2.0
 
-http://www.pocketvj.com
+https://www.pocketvj.com
 
 This file is used to control the PocketVJ over the webbrowser.
 
 ## Get the image for RPi2 here: https://pocketvj.com/downloads/pvj_20.img.gz
 
+![image](https://github.com/magdesign/PocketVJ-CP-v2/blob/master/pocketvj2_cp.png?raw=true)
+
+
+
+
+##Instruction
+
+
 Clone everything into the `/var/www/` directory.
 
 This file is only useful if you use the omxplayer-sync https://github.com/turingmachine/omxplayer-sync script.
 Read turingmachines installation instructions and get the custom build of omxplayer.
-
-##Instruction
 
 Add www-data to your sudoers list with: `visudo` add this line at the end: `www-data ALL=(ALL) NOPASSWD: ALL`
 
